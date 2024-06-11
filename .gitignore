@@ -10,6 +10,9 @@ build.ninja
 .ninja_deps
 .ninja_log
 
+# Ignore cmake/api directories
+.cmake/
+
 # Ignore editor and OS specific files
 *.swp
 .DS_Store
